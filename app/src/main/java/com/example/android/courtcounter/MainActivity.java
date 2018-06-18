@@ -55,7 +55,9 @@ public class MainActivity extends AppCompatActivity {
     }
 //    Reset Score
     public void reset(View view) {
-        displayScoreA(0);
-        displayScoreB(0);
+        scoreA=0;
+        scoreB=0;
+        displayScoreA(scoreA);
+        displayScoreB(scoreB);
     }
 }
